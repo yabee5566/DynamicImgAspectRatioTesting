@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
                 block.updateLayoutParams<ConstraintLayout.LayoutParams> {
                     dimensionRatio = RATIO_SQUARE_MEDIA
-
                 }
             }
             longBtn.setOnClickListener {
@@ -40,8 +39,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     companion object {
-        const val RATIO_SQUARE_MEDIA = "H,3:3"
-        const val RATIO_VERTICAL_MEDIA = "H,3:4"
-        const val RATIO_HORIZONTAL_MEDIA = "H,3:2.25"
+        const val RATIO_SQUARE_MEDIA = "W,3:3"
+        const val RATIO_VERTICAL_MEDIA = "W,3:4"
+        const val RATIO_HORIZONTAL_MEDIA = "W,3:2.25"
     }
 }

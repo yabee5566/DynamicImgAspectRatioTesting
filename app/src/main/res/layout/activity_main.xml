@@ -14,7 +14,6 @@
         android:background="@color/black"
         android:scaleType="centerCrop"
         fresco:actualImageResource="@mipmap/ic_launcher"
-        fresco:layout_constraintDimensionRatio="1"
         fresco:layout_constraintStart_toStartOf="parent"
         fresco:layout_constraintTop_toTopOf="parent" />
 
